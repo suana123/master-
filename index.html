@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AI.Tech - Artificial Intelligence HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+<style>
+    #batan{
+        align-items: center;
+        text-align: center;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 1rem;
+        background-color: aqua;
+        width: 80%;
+        margin-left: 20px;
+        border: red groove 2px;
+    }
+    #batan:hover{
+        scale: 1.1; transition: .3s;color: gold;
+    }
+</style>
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top background">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand">
+                    <h2 class="text-white">TECH OF<span class="text-dark">.</span>AI</h2>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active" style="font-family: 'Times New Roman', Times, serif;">Home</a>
+                        <a href="#about" class="nav-item nav-link" style="font-family: 'Times New Roman', Times, serif;">About</a>
+                        <a href="#service" class="nav-item nav-link" style="font-family: 'Times New Roman', Times, serif;">Guide of AI</a>
+                        
+                        <a href="#books" class="nav-item nav-link" style="font-family: 'Times New Roman', Times, serif;">Books</a>
+                        <a href="#contact" class="nav-item nav-link" style="font-family: 'Times New Roman', Times, serif;">Contact</a>
+                    </div>
+                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <style>
+        .background{
+            background-image: url(img/1682012519095.jpeg);
+        }
+    </style>
+    <div class="container-fluid pt-5 bg-primary hero-header mb-5 background">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                  
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">The Evolution and Impact of Artificial Intelligence</h1>
+                    <p class="text-white mb-4 animated slideInRight">Artificial Intelligence (AI) is rapidly advancing, reshaping industries and offering new opportunities for innovation and growth. Embracing AI technologies has become essential for staying competitive in today's fast-paced world.</p>
+                    <a href="#para" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInRight" style="color: black; font-weight: bolder; font-family: 'Times New Roman', Times, serif;" >Read More</a>
+                    <a href="#contact" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight" style=" font-weight: bolder; font-family: 'Times New Roman', Times, serif;">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-light p-3"
+                            placeholder="Type search keyword">
+                        <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+   
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container" id="para"> 
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid" src="img/img1.webp">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm border rounded-pill text-primary px 3 mb-3 fs-1" style="border: 2px solid  rgb(53, 54, 54) !important; border-radius: 10px !important; font-family: 'Times New Roman', Times, serif !important; color: rgb(0, 0, 0) !important; background-color: #a0c6e757 !important;">About Us</div>
+                    <h1 class="mb-4" style="text-transform: capitalize;">Empowering Growth through Artificial Intelligence</h1>
+                    <p class="mb-4" style="color: black; font-size: 1.2rem; font-family: 'Times New Roman', Times, serif;">Artificial Intelligence (AI) has evolved into a powerful force, driving innovation and transforming industries worldwide. In today's educational landscape, AI literacy has become essential, with institutions recognizing the need to incorporate AI education into their curricula to equip students with the skills needed for the future workforce. Learning AI involves understanding its fundamental concepts and principles, as well as gaining hands-on experience with various AI technologies. Looking ahead, the scope of AI is vast, offering opportunities for advancements in fields such as healthcare, finance, and sustainability, while also raising important ethical considerations that must be addressed for responsible AI deployment.</p>
+                     
+                   
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-light mt-5 py-5" id="service">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <h1 class="mb-4" style="position:relative; bottom: 50px; text-decoration: underline 2px solid transparent; text-shadow: 0 0 15px lightgreen; text-underline-offset: 7px;" >Evolution of AI:(Artificial Intelligence)</h1>
+                    <p class="mb-4" style="font-size: 1.1rem; color: black; font-family: 'Times New Roman', Times, serif;">The Evolution of Artificial Intelligence (AI) traces back to its inception in the mid-20th century, marked by the pioneering work of researchers such as Alan Turing and John McCarthy. Initially focused on symbolic reasoning and logical problem-solving, early AI systems faced limitations due to computational power and data availability.
+
+                        However, significant advancements in computing technology, particularly in the areas of machine learning and neural networks, propelled AI into new realms of capability. Breakthroughs such as the development of expert systems, the rise of statistical methods, and the emergence of deep learning algorithms revolutionized AI's potential.
+                        
+                        Today, AI stands at the forefront of innovation, with applications spanning diverse domains including healthcare, finance, transportation, and beyond. Its evolution continues unabated, driven by ongoing research, technological breakthroughs, and the increasing integration of AI into everyday life."
+                        
+                        I hope this provides a clear overview of the evolution of AI. Let me know if you need further assistance!</p>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col">
+                              <div class="card" id="ho1">
+                                <img src="image - Copy/AI.jpg" class="card-img-top hover-scale" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Power Of AI</h5>
+                                 
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card"  id="ho1">
+                                <img src="image - Copy/AI2.webp" class="card-img-top hover-scale" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">AI Artificial Intelligence</h5>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card" id="ho1">
+                                <img src="image - Copy/AI3.jpg" class="card-img-top hover-scale" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Digital Management</h5>
+                                 
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col" >
+                              <div class="card" id="ho1">
+                                <img src="image - Copy/AI4.jpg" class="card-img-top hover-scale" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Information technology IT</h5>
+                                 
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        <div class="col-md-6">
+                           
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <style>
+         .hover-scale {
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 10px 15px rgba(52, 129, 201, 0.575); /* Apply box shadow */
+}
+
+.card:hover .hover-scale {
+    transform: scale(1.1); /* Adjust the scale factor for the desired effect */
+}
+        #ho1 :hover{
+           background-color: aqua !important;
+           transition: .5s !important; 
+        }
+        #ho1{
+            border: 2px outset black !important;
+        }
+    </style>
+
+       <!-- About Start -->
+       <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center" id="information">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid" src="img/img2.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm  text-primary px 3 mb-3 fs-1" style=" font-size: 2rem; font-weight: bold; font-family: 'Times New Roman', Times, serif !important; color: rgb(0, 0, 0) !important;"> A Comprehensive Guide to Artificial Intelligence</div>
+                    <h1 class="mb-4" style="text-transform: capitalize;">Introduction:</h1>
+                    <p class="mb-4" style="color: black; font-size: 1.2rem; font-family: 'Times New Roman', Times, serif;">Artificial Intelligence (AI) has evolved into a powerful force, driving innovation and transforming industries worldwide. In today's educational landscape, AI literacy has become essential, with institutions recognizing the need to incorporate AI education into their curricula to equip students with the skills needed for the future workforce. Learning AI involves understanding its fundamental concepts and principles, as well as gaining hands-on experience with various AI technologies. Looking ahead, the scope of AI is vast, offering opportunities for advancements in fields such as healthcare, finance, and sustainability, while also raising important ethical considerations that must be addressed for responsible AI deployment.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    
+    <!-- Feature Start -->
+    <div class="container-fluid bg-primary feature pt-5" style="background-image: url(img/technology-background-with-blue-gradient-background-v_1559315jpg!w700wp.webp) ;" >
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
+                    <!-- <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Why Choose Us</div> -->
+                    <h1 class="text-white mb-4">Empowering Your Future with AI Excellence</h1>
+                    <p class="text-light mb-4" style=" font-size: 1.1rem; font-family: 'Times New Roman', Times, serif; ">Celebrate a new era of innovation as we harness the transformative capabilities of AI to elevate your business. With a decade of expertise, we tailor AI solutions to your unique needs, ensuring unparalleled efficiency and growth</p>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span style=" font-size: 1rem; font-family: 'Times New Roman', Times, serif; ">Revolutionize your operations with AI-driven solutions designed for success.</span>
+                    </div>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span style=" font-size: 1rem; font-family: 'Times New Roman', Times, serif; ">Experience the future of business with our cutting-edge AI technologies.</span>
+                    </div>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span style=" font-size: 1rem; font-family: 'Times New Roman', Times, serif; ">Unlock new possibilities and stay ahead of the curve with our AI expertise.</span>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="img/feature.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Case Start -->
+    <div class="container-fluid bg-light py-5" id="books">
+        <div class="container py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+                <!-- <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Case Study</div> -->
+                <h1 class="mb-4" style="font-family: 'Times New Roman', Times, serif; ">Explore Top 6 Our AI Books For learning</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/978-3-030-72357-6.jpeg" alt="">
+                        <a class="case-overlay text-decoration-none" href="https://terrorgum.com/tfox/books/artificialintelligenceinthe21stcentury.pdf" target="_blank">
+                            <h5 class="lh-base text-white mb-3" style=" font-size: 1.1rem; font-family: 'Times New Roman', Times, serif; ">Explore the fascinating world of Artificial Intelligence through this insightful book, delving into its principles and real-world applications.
+                            </h5>
+                            <button id="batan" style="border-radius: 50px !important;" >Click Here To Read This Book</button> 
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/8.jpg" alt="" style="height:520px;"> 
+                        <a class="case-overlay text-decoration-none" href="https://stannescet.ac.in/cms/staff/qbank/CSE/Notes/CS8691-ARTIFICIAL%20INTELLIGENCE-642246959-CS8691-AI.pdf" target="_blank">
+                        
+                            <h5 class="lh-base text-white mb-3" style=" font-size: 1rem; font-family: 'Times New Roman', Times, serif; ">Discover the intricacies of Machine Learning in this informative book, unraveling its algorithms and practical implementations for solving complex problems.
+                            </h5>
+                            <button id="batan" style="border-radius: 50px !important;" >Click Here To Read This Book</button> 
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/51HfSBf3dzL.jpg" alt="" style="height:520px;">
+                        <a class="case-overlay text-decoration-none" href="https://people.engr.tamu.edu/guni/csce421/files/AI_Russell_Norvig.pdf"  target="_blank">
+                            <h5 class="lh-base text-white mb-3" style=" font-size: 1rem; font-family: 'Times New Roman', Times, serif; ">Unlock the essential groundwork of Artificial Intelligence in this must-read book, providing key insights crucial for understanding its fundamentals and applications.
+                            </h5>
+                            <button id="batan" style="border-radius: 50px !important;" >Click Here To Read This Book</button> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/p4.jpg" alt="">
+                        <a class="case-overlay text-decoration-none" href="http://radio.eng.niigata-u.ac.jp/wp/wp-content/uploads/2020/06/python-machine-learning-2nd.pdf" target="_blank">
+                            <h5 class="lh-base text-white mb-3" style=" font-size: 1rem; font-family: 'Times New Roman', Times, serif; ">Unlock the essential groundwork of Artificial Intelligence in this must-read book, providing key insights crucial for understanding its fundamentals and applications.
+                            </h5>
+                            <button id="batan" style="border-radius: 50px !important;" >Click Here To Read This Book</button> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="image - Copy/p5.jpg" alt="">
+                        <a class="case-overlay text-decoration-none" href="https://dorshon.com/wp-content/uploads/2017/05/superintelligence-paths-dangers-strategies-by-nick-bostrom.pdf " target="_blank">
+                            <h5 class="lh-base text-white mb-3" style=" font-size: 1rem; font-family: 'Times New Roman', Times, serif; ">Unlock the essential groundwork of Artificial Intelligence in this must-read book, providing key insights crucial for understanding its fundamentals and applications.
+                            </h5>
+                            <button id="batan" style="border-radius: 50px !important;" >Click Here To Read This Book</button> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="image - Copy/p6.jpg" alt="">
+                        <a class="case-overlay text-decoration-none" href="https://pdfkeys.com/download/3868554-The-Master-Algorithm-Pedro-Domingos.pdf" target="_blank">
+                            <h5 class="lh-base text-white mb-3" style=" font-size: 1rem; font-family: 'Times New Roman', Times, serif; ">Unlock the essential groundwork of Artificial Intelligence in this must-read book, providing key insights crucial for understanding its fundamentals and applications.
+                            </h5> 
+                             <button id="batan" style="border-radius: 50px !important;" >Click Here To Read This Book</button> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Case End -->
+<div>
+    <h1 class="container-fluid" style="text-align: center; align-items: center; font-size: 2.5rem; background-color: rgb(235, 244, 252); font-family: 'Times New Roman', Times, serif; color: black; font-weight: bold !important;"> Navigating the World of <br> Artificial Intelligence </h1> <br>
+    <p class="container" style="text-align: center; align-items: center; font-size:1.2rem; color: black; font-family: 'Times New Roman', Times, serif;">Artificial Intelligence (AI) stands as a beacon of technological advancement, reshaping industries and revolutionizing the way we perceive the world. The journey of AI traces back to the historic Dartmouth Conference in 1956, where the term "artificial intelligence" was first coined. Since then, AI research has witnessed remarkable progress, propelled by breakthroughs in computing power and data analytics.
+
+        At its core, AI encompasses a diverse array of technologies and methodologies aimed at imbuing machines with human-like intelligence. From machine learning algorithms to natural language processing systems, AI enables computers to learn, reason, and make decisions autonomously. This transformative capability has paved the way for a myriad of applications across various sectors, including healthcare, finance, transportation, and entertainment.
+        
+        One significant era in the evolution of AI is the Fifth Generation Computer Systems project, initiated in Japan during the 1980s. This ambitious endeavor sought to develop advanced computer systems capable of processing vast amounts of data and reasoning like humans. Although the project faced challenges and limitations, it laid the groundwork for future AI research and development.
+        
+        As AI continues to permeate our lives, it presents both opportunities and challenges for society. On one hand, AI-driven technologies promise to enhance efficiency, drive innovation, and improve quality of life. On the other hand, concerns regarding data privacy, algorithmic bias, and job displacement loom large. It is imperative for stakeholders to navigate these complexities responsibly, ensuring that AI technologies serve humanity's best interests and contribute to a brighter future.
+        
+        In conclusion, AI holds immense promise as a transformative force that will shape the future of humanity. By understanding its origins, principles, and implications, we can harness the full potential of AI to address societal challenges and unlock new opportunities for progress and prosperity.</p>
+    
+        <div class="row row-cols-1 row-cols-md-3 g-4 container-fluid" style="text-align:  center; justify-content: center; align-items: center; display: flex;" >
+            <div class="col">
+              <div class="card">
+                <img src="https://img.freepik.com/premium-photo/illustrated-woman-with-artificial-intelligence-generative-ai_438099-11624.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://wp.healthdatamanagement.com/wp-content/uploads/2023/12/ART-Pharma-AI-Drug-768x768.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+
+       <!-- About Start -->
+       <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid" src="image - Copy/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learnin - Copy.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm  ext-primary px 3 mb-3 fs-1" style=" font-size: 2rem; font-weight: bold; font-family: 'Times New Roman', Times, serif !important; color: rgb(0, 0, 0) !important;"> Fifth Generation Of Artificial Intelligence</div>
+                    <h1 class="mb-4" style="text-transform: capitalize;">AI:</h1>
+                    <p class="mb-4" style="color: black; font-size: 1.2rem; font-family: 'Times New Roman', Times, serif;">The Fifth Generation of AI represents a significant milestone in the evolution of artificial intelligence, marked by ambitious endeavors to develop advanced computer systems capable of processing vast amounts of data and reasoning like humans. Initiated in Japan during the 1980s, this groundbreaking project aimed to push the boundaries of AI research, with a focus on creating intelligent machines capable of natural language processing, knowledge representation, and parallel processing. While the project faced challenges and limitations, including technological constraints and funding issues, it laid the groundwork for future AI advancements and inspired researchers to explore new frontiers in the field. Today, the legacy of the Fifth Generation lives on, serving as a testament to the enduring quest for AI excellence and innovation.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    
+
+    <!-- FAQs Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+            
+                <h1 class="mb-4" style=" font-size: 2rem">Frequently Asked Questions (FAQs) About Artificial Intelligence</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionFAQ1">
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.1s">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    What is Artificial Intelligence (AI)?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    AI refers to the simulation of human intelligence in machines that are programmed to think and learn like humans.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.2s">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How does AI benefit businesses?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    AI enables businesses to automate tasks, gain insights from data, improve decision-making, and enhance customer experiences.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.3s">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    What are the main types of AI?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    The main types of AI include Narrow AI (ANI) which is task-specific and General AI (AGI) which can perform any intellectual task that a human can.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.4s">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                 What are some popular AI applications?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    Popular AI applications include virtual assistants, recommendation systems, autonomous vehicles, and healthcare diagnostics.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionFAQ2">
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.5s">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    What is Machine Learning (ML)?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    ML is a subset of AI that involves training algorithms to learn patterns from data and make predictions or decisions without being explicitly programmed.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.6s">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    How can businesses implement AI?
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    Businesses can implement AI through various methods including adopting AI-powered software, developing in-house AI solutions, or leveraging AI services from third-party providers.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.7s">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    What are the ethical considerations in AI?
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    Ethical considerations in AI include issues related to bias in algorithms, data privacy, job displacement, and the potential misuse of AI-powered technologies.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.8s">
+                            <h2 class="accordion-header" id="headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    What is the future of AI?
+                                </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    The future of AI holds tremendous potential for advancements in various fields such as healthcare, finance, education, and robotics, shaping how we live and work in the coming years.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQs Start -->
+
+
+   <!-- about me start -->
+    <div class="container-fluid bg-light py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3" style="border: 2px solid black !important; color: black !important; font-size: 1.1rem; font-weight: bold;">About me</div>
+                    <h1 class="mb-4">ABOUT ME</h1>
+                    <p class="mb-4" style="color: black; font-size: 1.1rem; font-family: 'Times New Roman', Times, serif;">
+                        Iam Abdul Hadi is a skilled web developer and designer, passionate about creating captivating online experiences. With expertise in coding and design, he crafts high-quality websites that leave a lasting impression.</p>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                           
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0" style="border: 2px inset black  !important; background-color: aliceblue !important;">
+                                        <img class="img-fluid rounded-circle p-4" src="https://www.novapharma.com/wp-content/uploads/Testimonial-pic.jpg" alt="">
+                                        <h5 class="mb-0">ABDUL HADI</h5>
+                                        <small>CREATOR</small>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            <a style="color: white !important; background-color: black !important;" class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a style="color: white !important; background-color: black !important;" class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-twitter"></i></a>
+                                            <a style="color: white !important; background-color: black !important;" class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a style="color: white !important ; background-color: black !important;" class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about me end  -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3" style="border: 2px solid black !important; color: black !important; font-size: 1.2rem; font-weight: bold;">Reviews</div>
+                    <h1 class="mb-4">What Say Our Clients!</h1>
+                    <p class="mb-4"  style="color: black; font-size: 1.1rem; font-family: 'Times New Roman', Times, serif;">Clients are the heartbeat of our business. Their satisfaction and success drive our commitment to excellence. We value their feedback and continuously strive to exceed their expectations. Here's what some of our clients have to say about their experience with us:</p>
+                  
+                </div>
+                <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel border-start border-primary">
+                        <div class="testimonial-item ps-5">
+                            <i style="color: red!important;" class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-5">Working with [Artificial intelligence] has been a game-changer for our business. Their dedication to understanding our needs and delivering exceptional results is unmatched. We're thrilled with the outcome and look forward to continuing our partnership in the future.</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="https://www.aljazeera.com/wp-content/uploads/2022/11/AP22328285130809.jpg?resize=1800%2C1800"
+                                    style="width: 85px; height:85px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Army Chief General Asim Muneer</h5>
+                                    <span>ARMY GENERAL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i style="color: red !important;" class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-5">Choosing [Artificial intelligence] for our project was one of the best decisions we made. Their professionalism, expertise, and attention to detail exceeded our expectations. The team went above and beyond to ensure our satisfaction, and we couldn't be happier with the outcome.</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="image - Copy/cleint2.jpg"
+                                    style="width: 85px; height: 80px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Mr.Imran Khan Niazi</h5>
+                                    <span>Former Prime Minister</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i style="color: red !important;" class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-5">We're incredibly impressed with the level of service and expertise provided by [Artificial intelligence]. From start to finish, the team was proactive, responsive, and committed to delivering top-notch results. Their innovative approach and dedication to client satisfaction truly set them apart.</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="image - Copy/client1.webp"
+                                    style="width: 85px; height: 80px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Mr.Joe Biden</h5>
+                                    <span>President Of America</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- contact start -->
+<div class="container-fluid py-5" id="contact">
+    <div class="container py-5">
+        <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h1 class="mb-4">If You Have Any Query, Please Contact Us</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <p class="text-center mb-4">We appreciate your interest in connecting with us! Whether you have questions, feedback, or inquiries, we're here to assist you. Our dedicated team is committed to providing timely and personalized support to address your needs. Feel free to reach out to us via the contact form below or directly through email. We look forward to hearing from you and assisting you further.</p>
+                <div class="wow fadeIn" data-wow-delay="0.3s">
+                    <form action="connect.php" method="post" id="myForm">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name" name="name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email" name="email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 150px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button  style="background-color: black;" class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- contact end -->
+
+<!-- Footer Start -->
+ 
+    
+    
+
+    <div class="container-fluid bg-dark text-white-50 footer pt-5";>
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3">
+                        <h1 class="text-white">TECH<span class="text-primary"></span> OF. AI</h1>
+                    </a>
+                    <p class="mb-0">Artificial Intelligence (AI) is rapidly advancing, reshaping industries and offering new opportunities for innovation and growth. Embracing AI technologies has become essential for staying competitive in today's fast-paced world.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="text-white mb-4">INFORMATION</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>Nazimabad Street 4th , Karachi, Pakistan</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+92 3308273801</p>
+                    <p><i class="fa fa-envelope me-3"></i>gamerxpro247@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://www.google.com/search?q=twitter&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQkxNjU1ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8"><i class="fab fa-twitter" ></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/COASPA/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/channel/UCQnLexZPfTWZD-2CWDihp6A" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/legend_xpro_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="text-white mb-4">Link</h5>
+                    <a class="btn btn-link" href="#about">About Us</a>
+                    <a class="btn btn-link" href="#contact">Contact Us</a>
+                    <a class="btn btn-link" href="#service">Guide of AI </a>
+                    <a class="btn btn-link" href="#">Terms & Condition</a>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="text-white mb-4">Services</h5>
+                    <a class="btn btn-link" href="#robots">Robotic Automation</a>
+                    <a class="btn btn-link" href="#machine learning">Machine learning</a>
+                    <a class="btn btn-link" href="#Education">Predictive Analysis</a>
+                    <a class="btn btn-link" href="#analaysis">Data Science</a>
+                    <a class="btn btn-link" href="#information">Robot Technology</a>
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">TECH OF.AI</a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://www.youtube.com/channel/UCQnLexZPfTWZD-2CWDihp6A">ABDUL HADI</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Help</a>
+                            <a href="">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="main.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var form = document.getElementById("myForm");
+            form.addEventListener("keypress", function(event) {
+                if (event.keyCode === 13) { // Check if Enter key is pressed
+                    event.preventDefault(); // Prevent default form submission
+                    form.submit(); // Submit the form
+                }
+            });
+        });
+   </script>
+      
+    
+           
+</body>
+
+    
+
+</html>
